@@ -6,7 +6,7 @@ import mlflow
 import mlflow.sklearn
 
 # mlflow.set_experiment("Test-Cases")
-# experiment = mlflow.get_experiment_by_name("Test-Cases")
+# experiment_ = mlflow.get_experiment_by_name("Test-Cases")
 
 with mlflow.start_run() as run1:
 	url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/pima-indians-diabetes.data.csv"
