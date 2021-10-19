@@ -1,4 +1,4 @@
-name: sklearn_logistic_example
+name: sklearn_logistic_exa
 
 conda_env: conda.yaml
 
