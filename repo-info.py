@@ -11,7 +11,7 @@ data = {
 	"user_name": "priy@gmail.com"
 }
 
-# sending post request and saving response as response object
+# sending post request  and saving response as response object
 r = requests.post(url = API_ENDPOINT, data = data)
 
 # extracting response text
