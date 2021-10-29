@@ -29,6 +29,6 @@ with mlflow.start_run() as run1:
 	print("Score: %s" % score)
 	# save the model to disk
 	mlflow.log_metric("score", score)
-	# mlflow.sklearn.log_model(model, "model")
+	mlflow.sklearn.log_model(model, "model")
 print(run1.info.run_id)
 # print(run1.info.run_id)
