@@ -23,7 +23,7 @@ with mlflow.start_run() as run1:
 	X_train, X_test, Y_train, Y_test = model_selection.train_test_split(X, Y, test_size=test_size, random_state=seed)
 # Fit the model on training set
 
-	model = LogisticRegression()
+	model = LogisticRegression(max_iter=1000)
 	model.fit(X_train, Y_train)
 	score = model.score(X_train, Y_train)
 	print("Score: %s" % score)
