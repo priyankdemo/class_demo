@@ -8,7 +8,7 @@ API_ENDPOINT = "http://115.115.91.60:5432/train"
 data = {
 	"url": "https://github.com/priyankdemo/class_demo",
 	"branch_name": "master",
-	"user_name": "priy@gmail.com"
+	"user_name": "123@123.com"
 }
 
 # sending post request  and saving response as response object
